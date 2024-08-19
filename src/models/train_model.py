@@ -16,8 +16,8 @@ import mlflow
 import dagshub
 
 #initiate dagshub server
-dagshub.init(repo_owner='nigiledwin', repo_name='Projece1_IPL', mlflow=True)
-mlflow.set_tracking_uri("https://dagshub.com/nigiledwin/Projece1_IPL.mlflow")
+dagshub.init(repo_owner='nigiledwin', repo_name='IPL_score_prediction', mlflow=True)
+mlflow.set_tracking_uri("https://dagshub.com/nigiledwin/IPL_score_prediction.mlflow")
 
 # Import params.yaml and define variables
 params = yaml.safe_load(open('params.yaml', 'r'))['train_model']
