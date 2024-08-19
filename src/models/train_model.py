@@ -16,8 +16,21 @@ import mlflow
 import dagshub
 
 #initiate dagshub server
-dagshub.init(repo_owner='nigiledwin', repo_name='IPL_score_prediction', mlflow=True)
-mlflow.set_tracking_uri("https://dagshub.com/nigiledwin/IPL_score_prediction.mlflow")
+# Set up DagsHub credentials for MLflow tracking
+dagshub_token = os.getenv("DAGSHUB_PAT")
+if not dagshub_token:
+    raise EnvironmentError("DAGSHUB_PAT environment variable is not set")
+
+os.environ["MLFLOW_TRACKING_USERNAME"] = dagshub_token
+os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
+
+
+dagshub_url = "https://dagshub.com"
+repo_owner = "nigiledwin"
+repo_name = "IPL_score_prediction"
+
+# Set up MLflow tracking URI
+mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 
 # Import params.yaml and define variables
 params = yaml.safe_load(open('params.yaml', 'r'))['train_model']
