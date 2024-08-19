@@ -13,6 +13,11 @@ import os
 import matplotlib.pyplot as plt
 import yaml
 import mlflow
+import dagshub
+
+#initiate dagshub server
+dagshub.init(repo_owner='nigiledwin', repo_name='Projece1_IPL', mlflow=True)
+mlflow.set_tracking_uri("https://dagshub.com/nigiledwin/Projece1_IPL.mlflow")
 
 # Import params.yaml and define variables
 params = yaml.safe_load(open('params.yaml', 'r'))['train_model']
@@ -55,10 +60,7 @@ def preprocessing(X_train, y_train, X_test, y_test):
         y_true = y_test.iloc[:1].values.ravel()
         rmse = mean_squared_error(y_true, y_pred, squared=False)  # RMSE calculation
 
-        mlflow.log_metric('acuracy',rmse)
-        mlflow.log_param('max_depth', max_depth)
-        mlflow.log_param('n_estimators', n_estimators)
-
+        
         # Get feature names after transformation
         feature_names = get_feature_names(trf1, original_feature_names)
 
@@ -79,6 +81,22 @@ def preprocessing(X_train, y_train, X_test, y_test):
         shap.waterfall_plot(shap.Explanation(values=shap_values[0].values, base_values=shap_values[0].base_values, data=X_test_transformed[0], feature_names=feature_names), show=False)
         #plt.savefig('models/shap_summary_plot.png')
         plt.savefig('models/shap_waterfall.png')
+
+        #log mlflow experiments
+        mlflow.log_metric('acuracy',rmse)
+        mlflow.log_param('max_depth', max_depth)
+        mlflow.log_param('n_estimators', n_estimators)
+
+         # mlflow code
+        #mlflow.log_artifact("shap_waterfall.png")
+
+        mlflow.log_artifact(__file__)
+
+        mlflow.sklearn.log_model(pipe, "xgboost")
+
+        mlflow.set_tag('author','nigil')
+        mlflow.set_tag('modelipl','xgboost')
+        
         
         return pipe, rmse,y_pred
 

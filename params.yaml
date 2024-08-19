@@ -6,7 +6,7 @@ train_model:
   test_size: .2
   n_estimators: 50
   max_depth: 20
-  learning_rate: .2  
+  learning_rate: .3
   model: 'xgboost'
 
     
