@@ -1,0 +1,7 @@
+artifact_location: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/863116966064323053
+creation_time: 1724088246453
+experiment_id: '863116966064323053'
+last_update_time: 1724088481586
+lifecycle_stage: deleted
+name: iris-rf
+tags: {}

@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/786580798303020770
+creation_time: 1724088499716
+experiment_id: '786580798303020770'
+last_update_time: 1724088499716
+lifecycle_stage: active
+name: ipl_xgboost

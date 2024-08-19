@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/863116966064323053/14c4c204d7b545b393a0d43aa33c8dd5/artifacts
+deleted_time: 1724088481586
+end_time: 1724088284198
+entry_point_name: ''
+experiment_id: '863116966064323053'
+lifecycle_stage: deleted
+run_id: 14c4c204d7b545b393a0d43aa33c8dd5
+run_name: worried-shad-133
+run_uuid: 14c4c204d7b545b393a0d43aa33c8dd5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724088246886
+status: 3
+tags: []
+user_id: nigil
