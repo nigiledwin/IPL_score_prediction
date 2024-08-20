@@ -8,6 +8,6 @@ matplotlib
 pyyaml
 mlflow
 dagshub
-
+awscli
 
 
