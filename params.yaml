@@ -1,5 +1,5 @@
 build_features:
-    drop_rows: 30
+    drop_rows: 40
     rolling_window: 30
 
 train_model:

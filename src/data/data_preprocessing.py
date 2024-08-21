@@ -100,6 +100,6 @@ def feature_engineering(df):
  
 df = load_data("data/raw/all_season_details.csv")  
 df_clean=clean_data(df)
-df_final=feature_engineering(df_clean).iloc[30:,:]
+df_final=feature_engineering(df_clean).iloc[40:,:]
 print(df_final.head())
 save_split_df(df_final,"data/processed/df_final.csv")

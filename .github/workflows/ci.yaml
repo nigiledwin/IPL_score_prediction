@@ -25,11 +25,12 @@ jobs:
       - name: install dependencies
         run: |
           pip install -r requirements.txt
-          
+
       - name: Install DVC
         run: |
           pip install dvc
-      
+      - name: Print DAGSHUB_PAT (for debugging)
+        run: echo "DAGSHUB_PAT is set to ${{ secrets.DAGSHUB_PAT }}"
       - name: run pipeline
         env:
           DAGSHUB_PAT: ${{ secrets.DAGSHUB_PAT }}
