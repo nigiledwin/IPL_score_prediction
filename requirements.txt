@@ -9,5 +9,6 @@ pyyaml
 mlflow
 dagshub
 awscli
+dvc[s3]
 
 
