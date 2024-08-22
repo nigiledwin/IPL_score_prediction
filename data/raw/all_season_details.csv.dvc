@@ -2,4 +2,4 @@ outs:
 - md5: a0ec24a06b373d80168f529f96878578
   size: 73610151
   hash: md5
-  path: all_season_details.csv
+  path: data/raw/all_season_details.csv
