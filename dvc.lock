@@ -3,10 +3,11 @@ stages:
   data_preprocessing:
     cmd: python src/data/data_preprocessing.py
     deps:
-    - path: data/raw/all_season_details.csv
+    - path: data/raw
       hash: md5
-      md5: a0ec24a06b373d80168f529f96878578
-      size: 73610151
+      md5: 994fb0e26a0567b844f6921f4bbf426f.dir
+      size: 73610262
+      nfiles: 3
     - path: src/data/data_preprocessing.py
       hash: md5
       md5: c1865641f1e80e82404e4839aa879aa4
