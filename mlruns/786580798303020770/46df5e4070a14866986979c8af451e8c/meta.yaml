@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/786580798303020770/46df5e4070a14866986979c8af451e8c/artifacts
+end_time: 1724957145296
+entry_point_name: ''
+experiment_id: '786580798303020770'
+lifecycle_stage: active
+run_id: 46df5e4070a14866986979c8af451e8c
+run_name: bemused-wasp-806
+run_uuid: 46df5e4070a14866986979c8af451e8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724957098473
+status: 4
+tags: []
+user_id: nigil
