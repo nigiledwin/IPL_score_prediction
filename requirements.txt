@@ -10,5 +10,6 @@ mlflow
 dagshub
 awscli
 dvc
+dvc_s3
 
 
