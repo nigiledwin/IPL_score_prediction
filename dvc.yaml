@@ -1,5 +1,4 @@
 stages:
-  
   data_preprocessing:
     cmd: python src/data/data_preprocessing.py
     deps:
@@ -8,12 +7,17 @@ stages:
     outs:
     - data/processed
 
-  model training:
+  model_training:
     cmd: python src/models/train_model.py
     deps:
     - data/processed
     - src/models/train_model.py
     outs:
-    - models  
-  
-  
+    - models
+
+  streamlit_app:
+    cmd: streamlit run src/app/app.py
+    deps:
+    - models  # Assuming the Streamlit app depends on the trained models
+    - src/app/app.py
+    

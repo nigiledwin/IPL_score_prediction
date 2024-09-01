@@ -11,5 +11,6 @@ dagshub
 awscli
 dvc
 dvc_s3
+streamlit
 
 
