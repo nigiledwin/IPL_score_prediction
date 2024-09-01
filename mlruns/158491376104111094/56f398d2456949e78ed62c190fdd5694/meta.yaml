@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/56f398d2456949e78ed62c190fdd5694/artifacts
+end_time: 1725182423473
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 56f398d2456949e78ed62c190fdd5694
+run_name: judicious-kit-841
+run_uuid: 56f398d2456949e78ed62c190fdd5694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725182423402
+status: 3
+tags: []
+user_id: nigil

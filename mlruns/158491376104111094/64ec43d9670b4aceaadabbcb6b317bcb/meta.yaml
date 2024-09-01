@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/64ec43d9670b4aceaadabbcb6b317bcb/artifacts
+end_time: 1725181736901
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 64ec43d9670b4aceaadabbcb6b317bcb
+run_name: upset-cat-786
+run_uuid: 64ec43d9670b4aceaadabbcb6b317bcb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181736861
+status: 3
+tags: []
+user_id: nigil

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/1d06be3c3ced4d43a13aba68b3fc8763/artifacts
+end_time: 1725183964772
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 1d06be3c3ced4d43a13aba68b3fc8763
+run_name: enthused-jay-374
+run_uuid: 1d06be3c3ced4d43a13aba68b3fc8763
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183964715
+status: 3
+tags: []
+user_id: nigil

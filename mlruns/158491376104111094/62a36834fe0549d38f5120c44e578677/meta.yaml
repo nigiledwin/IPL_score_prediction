@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/62a36834fe0549d38f5120c44e578677/artifacts
+end_time: 1725181361246
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 62a36834fe0549d38f5120c44e578677
+run_name: gaudy-bird-596
+run_uuid: 62a36834fe0549d38f5120c44e578677
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181354949
+status: 4
+tags: []
+user_id: nigil

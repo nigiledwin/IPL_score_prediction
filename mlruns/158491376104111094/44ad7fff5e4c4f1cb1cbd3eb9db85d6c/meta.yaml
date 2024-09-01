@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/44ad7fff5e4c4f1cb1cbd3eb9db85d6c/artifacts
+end_time: 1725183964924
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 44ad7fff5e4c4f1cb1cbd3eb9db85d6c
+run_name: unique-crab-976
+run_uuid: 44ad7fff5e4c4f1cb1cbd3eb9db85d6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183964856
+status: 3
+tags: []
+user_id: nigil

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/f190ab01150f4e11a58d6850aac30bf6/artifacts
+end_time: 1725181201422
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: f190ab01150f4e11a58d6850aac30bf6
+run_name: casual-stoat-65
+run_uuid: f190ab01150f4e11a58d6850aac30bf6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181149900
+status: 4
+tags: []
+user_id: nigil

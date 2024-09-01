@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/dac886b3db834853b022e9a6b4d388cb/artifacts
+end_time: 1725181937253
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: dac886b3db834853b022e9a6b4d388cb
+run_name: legendary-sheep-700
+run_uuid: dac886b3db834853b022e9a6b4d388cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181937204
+status: 3
+tags: []
+user_id: nigil

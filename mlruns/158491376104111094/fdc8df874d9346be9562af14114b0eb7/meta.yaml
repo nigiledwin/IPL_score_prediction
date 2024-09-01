@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/fdc8df874d9346be9562af14114b0eb7/artifacts
+end_time: 1725183964703
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: fdc8df874d9346be9562af14114b0eb7
+run_name: enchanting-swan-119
+run_uuid: fdc8df874d9346be9562af14114b0eb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183964648
+status: 3
+tags: []
+user_id: nigil

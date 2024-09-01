@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/4e14a8da70b7499ca65b3c6a1f5db2aa/artifacts
+end_time: 1725182424099
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 4e14a8da70b7499ca65b3c6a1f5db2aa
+run_name: respected-sponge-277
+run_uuid: 4e14a8da70b7499ca65b3c6a1f5db2aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725182424032
+status: 3
+tags: []
+user_id: nigil

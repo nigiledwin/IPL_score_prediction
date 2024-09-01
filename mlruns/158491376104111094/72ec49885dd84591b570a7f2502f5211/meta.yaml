@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/72ec49885dd84591b570a7f2502f5211/artifacts
+end_time: 1725183964420
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 72ec49885dd84591b570a7f2502f5211
+run_name: judicious-chimp-292
+run_uuid: 72ec49885dd84591b570a7f2502f5211
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183964362
+status: 3
+tags: []
+user_id: nigil

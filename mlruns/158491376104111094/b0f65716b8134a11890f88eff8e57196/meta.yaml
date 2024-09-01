@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/b0f65716b8134a11890f88eff8e57196/artifacts
+end_time: 1725181436332
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: b0f65716b8134a11890f88eff8e57196
+run_name: unequaled-squid-652
+run_uuid: b0f65716b8134a11890f88eff8e57196
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181436288
+status: 3
+tags: []
+user_id: nigil

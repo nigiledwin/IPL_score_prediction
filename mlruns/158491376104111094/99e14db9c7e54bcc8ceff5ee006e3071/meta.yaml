@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/99e14db9c7e54bcc8ceff5ee006e3071/artifacts
+end_time: 1725182423749
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 99e14db9c7e54bcc8ceff5ee006e3071
+run_name: dashing-ram-184
+run_uuid: 99e14db9c7e54bcc8ceff5ee006e3071
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725182423685
+status: 3
+tags: []
+user_id: nigil

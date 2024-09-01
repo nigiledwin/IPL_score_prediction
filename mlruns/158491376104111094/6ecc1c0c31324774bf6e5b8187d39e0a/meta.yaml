@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/6ecc1c0c31324774bf6e5b8187d39e0a/artifacts
+end_time: 1725183964345
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 6ecc1c0c31324774bf6e5b8187d39e0a
+run_name: capricious-skunk-64
+run_uuid: 6ecc1c0c31324774bf6e5b8187d39e0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183964289
+status: 3
+tags: []
+user_id: nigil

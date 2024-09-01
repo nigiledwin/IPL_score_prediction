@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/a7f52de3498d4905aa3b166fbac62a28/artifacts
+end_time: 1725183964564
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: a7f52de3498d4905aa3b166fbac62a28
+run_name: fun-worm-332
+run_uuid: a7f52de3498d4905aa3b166fbac62a28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183964508
+status: 3
+tags: []
+user_id: nigil

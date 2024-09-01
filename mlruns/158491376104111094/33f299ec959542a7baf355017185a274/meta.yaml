@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/33f299ec959542a7baf355017185a274/artifacts
+end_time: 1725181737246
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 33f299ec959542a7baf355017185a274
+run_name: handsome-cow-22
+run_uuid: 33f299ec959542a7baf355017185a274
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181737199
+status: 3
+tags: []
+user_id: nigil

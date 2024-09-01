@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/e057f749f1124c6e8840d6fa2c87b2c2/artifacts
+end_time: 1725181936852
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: e057f749f1124c6e8840d6fa2c87b2c2
+run_name: amazing-sheep-333
+run_uuid: e057f749f1124c6e8840d6fa2c87b2c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181936782
+status: 3
+tags: []
+user_id: nigil

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/e500e56fc5e644e1a4d20eff6097c342/artifacts
+end_time: 1725181936781
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: e500e56fc5e644e1a4d20eff6097c342
+run_name: brawny-perch-906
+run_uuid: e500e56fc5e644e1a4d20eff6097c342
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181936697
+status: 3
+tags: []
+user_id: nigil

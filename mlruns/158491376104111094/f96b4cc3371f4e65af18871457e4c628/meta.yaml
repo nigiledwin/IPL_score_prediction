@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/f96b4cc3371f4e65af18871457e4c628/artifacts
+end_time: 1725183964496
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: f96b4cc3371f4e65af18871457e4c628
+run_name: skillful-gull-953
+run_uuid: f96b4cc3371f4e65af18871457e4c628
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183964433
+status: 3
+tags: []
+user_id: nigil

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/85e72aaf4be7494e8b90d981104121ed/artifacts
+end_time: 1725183964130
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 85e72aaf4be7494e8b90d981104121ed
+run_name: grandiose-hen-618
+run_uuid: 85e72aaf4be7494e8b90d981104121ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183964054
+status: 3
+tags: []
+user_id: nigil

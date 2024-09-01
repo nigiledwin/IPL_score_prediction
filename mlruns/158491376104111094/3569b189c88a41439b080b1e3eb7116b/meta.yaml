@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/3569b189c88a41439b080b1e3eb7116b/artifacts
+end_time: 1725180797088
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 3569b189c88a41439b080b1e3eb7116b
+run_name: victorious-dove-614
+run_uuid: 3569b189c88a41439b080b1e3eb7116b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725180548943
+status: 3
+tags: []
+user_id: nigil

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/bb016231ac6b4720a283e5ecb1edeb68/artifacts
+end_time: 1725181742059
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: bb016231ac6b4720a283e5ecb1edeb68
+run_name: respected-mouse-289
+run_uuid: bb016231ac6b4720a283e5ecb1edeb68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181716530
+status: 3
+tags: []
+user_id: nigil

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/dfccd30dbdd14a9ea8c097e9e8c3e9bb/artifacts
+end_time: 1725183965129
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: dfccd30dbdd14a9ea8c097e9e8c3e9bb
+run_name: fearless-snail-362
+run_uuid: dfccd30dbdd14a9ea8c097e9e8c3e9bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183965068
+status: 3
+tags: []
+user_id: nigil

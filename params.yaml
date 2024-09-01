@@ -3,10 +3,10 @@ build_features:
     rolling_window: 30
 
 train_model:
-  test_size: .2
-  n_estimators: 125
-  max_depth: 30
-  learning_rate: .3
+  test_size: .3
+  n_estimators: 20
+  max_depth: 20
+  learning_rate: .2
   model: 'xgboost'
 
     

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/786580798303020770/b7755b4883664beabd7c37f3119e3cce/artifacts
+end_time: 1725176504961
+entry_point_name: ''
+experiment_id: '786580798303020770'
+lifecycle_stage: active
+run_id: b7755b4883664beabd7c37f3119e3cce
+run_name: mysterious-gnat-16
+run_uuid: b7755b4883664beabd7c37f3119e3cce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725176504908
+status: 4
+tags: []
+user_id: nigil

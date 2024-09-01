@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/cf0dba0de9794b49b51f499ffa4c0af3/artifacts
+end_time: 1725181936917
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: cf0dba0de9794b49b51f499ffa4c0af3
+run_name: debonair-perch-368
+run_uuid: cf0dba0de9794b49b51f499ffa4c0af3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181936855
+status: 3
+tags: []
+user_id: nigil

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/0353c5cf446f44fea2f44025a3dd0792/artifacts
+end_time: 1725182424026
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 0353c5cf446f44fea2f44025a3dd0792
+run_name: carefree-steed-850
+run_uuid: 0353c5cf446f44fea2f44025a3dd0792
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725182423967
+status: 3
+tags: []
+user_id: nigil

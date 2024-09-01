@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/24c62c10c1124a8dbd6f1fe93c27f934/artifacts
+end_time: 1725181937369
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 24c62c10c1124a8dbd6f1fe93c27f934
+run_name: caring-tern-417
+run_uuid: 24c62c10c1124a8dbd6f1fe93c27f934
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181937321
+status: 3
+tags: []
+user_id: nigil

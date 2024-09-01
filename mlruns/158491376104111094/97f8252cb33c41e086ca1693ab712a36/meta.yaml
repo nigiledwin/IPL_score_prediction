@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/97f8252cb33c41e086ca1693ab712a36/artifacts
+end_time: 1725181737346
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 97f8252cb33c41e086ca1693ab712a36
+run_name: honorable-shrimp-949
+run_uuid: 97f8252cb33c41e086ca1693ab712a36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181737262
+status: 3
+tags: []
+user_id: nigil

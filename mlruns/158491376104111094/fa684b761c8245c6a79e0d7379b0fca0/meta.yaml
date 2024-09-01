@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/fa684b761c8245c6a79e0d7379b0fca0/artifacts
+end_time: 1725181937136
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: fa684b761c8245c6a79e0d7379b0fca0
+run_name: amusing-fowl-322
+run_uuid: fa684b761c8245c6a79e0d7379b0fca0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181937101
+status: 3
+tags: []
+user_id: nigil

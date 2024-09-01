@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/c702a2e63dd746c7af747fcef339bd68/artifacts
+end_time: 1725183964209
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: c702a2e63dd746c7af747fcef339bd68
+run_name: hilarious-moose-595
+run_uuid: c702a2e63dd746c7af747fcef339bd68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725183964145
+status: 3
+tags: []
+user_id: nigil

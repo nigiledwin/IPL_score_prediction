@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094/98e30488e51642559d7b561c58897935/artifacts
+end_time: 1725181736848
+entry_point_name: ''
+experiment_id: '158491376104111094'
+lifecycle_stage: active
+run_id: 98e30488e51642559d7b561c58897935
+run_name: classy-goose-142
+run_uuid: 98e30488e51642559d7b561c58897935
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725181736797
+status: 3
+tags: []
+user_id: nigil

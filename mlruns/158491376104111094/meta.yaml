@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Python_Projects/ML_Projects_with_MLOPS/project1_ipl/mlruns/158491376104111094
+creation_time: 1725180231452
+experiment_id: '158491376104111094'
+last_update_time: 1725180231452
+lifecycle_stage: active
+name: ipl_xgboost_exp
