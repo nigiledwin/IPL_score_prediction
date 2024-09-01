@@ -75,7 +75,7 @@ def preprocessing(X_train, y_train, X_test, y_test):
         rmse = root_mean_squared_error(y_true, y_pred)  # RMSE calculation
 
         
-        # Get feature names after transformation
+        """# Get feature names after transformation
         feature_names = get_feature_names(trf1, original_feature_names)
 
         # SHAP explainability
@@ -94,7 +94,7 @@ def preprocessing(X_train, y_train, X_test, y_test):
         shap.summary_plot(shap_values, X_test_transformed, show=False)
         shap.waterfall_plot(shap.Explanation(values=shap_values[0].values, base_values=shap_values[0].base_values, data=X_test_transformed[0], feature_names=feature_names), show=False)
         plt.savefig('models/shap_summary_plot.png')
-        plt.savefig('models/shap_waterfall.png')
+        plt.savefig('models/shap_waterfall.png')"""
 
         #log mlflow experiments
         mlflow.log_metric('acuracy',rmse)
@@ -102,7 +102,7 @@ def preprocessing(X_train, y_train, X_test, y_test):
         mlflow.log_param('n_estimators', n_estimators)
 
          # mlflow code
-        mlflow.log_artifact("shap_waterfall.png")
+        #mlflow.log_artifact("shap_waterfall.png")
 
         mlflow.log_artifact(__file__)
 
