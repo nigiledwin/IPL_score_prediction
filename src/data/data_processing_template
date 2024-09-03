@@ -1,0 +1,99 @@
+#importing libraries
+
+import pandas as pd
+import numpy as np
+import os
+
+#create processed folder under data
+output_dir = "data/processed"
+os.makedirs(output_dir, exist_ok=True)
+
+#load csv to dataframe
+
+def load_csv(data_url):
+
+    if not os.path.exists(data_url):
+        print(f"error{data_url} does not exists")
+        return None
+    try:
+        df=pd.read_csv(data_url)
+        print("loadded sucessfully")
+        return df
+    except Exception as e:
+        print(f"Eroor loading data:{e}")
+        return None
+data_url=r"C:\Python_Projects\ML_Projects_with_MLOPS\project1_ipl\data\raw\all_season_details.csv"
+
+
+def null_values_handling(df):
+    #create a summary column
+    summary=pd.DataFrame(columns=['Initial Na %','Fill Value'])
+
+    #iterate over each colum of dataframe
+
+    for column in df.columns:
+        missing_percentage=df[column].isna().mean()*100
+        fill_value=None
+
+        if missing_percentage>70:
+            df.drop(columns=[column],inplace=True)
+            fill_value="Dropped"
+        #Handle numerical columns
+        elif df[column].dtype in [np.float64, np.int64]:
+            fill_value = df[column].mean()
+            df[column].fillna(fill_value)
+        # Handle categorical columns
+        elif df[column].dtype == 'object':
+            fill_value = df[column].mode()[0]  # Mode returns a Series, take the first value
+            df[column].fillna(fill_value)
+
+        # Record the initial NA percentage and the fill value or action taken
+        summary.loc[column] = [missing_percentage, fill_value]
+    return df, summary    
+
+
+def detect_outliers_iqr(df, threshold=1.5):
+
+    """Detect outliers in a DataFrame using the IQR method.
+    
+    Parameters:
+    - df: pandas DataFrame containing the data.
+    - threshold: The multiplier for the IQR to determine outlier boundaries. Default is 1.5.
+    
+    Returns:
+    - outliers_df: A DataFrame indicating outliers in each column.
+    - outliers_summary: A summary DataFrame showing the percentage of outliers in each column."""
+
+    outliers_df = pd.DataFrame(index=df.index)
+    outliers_summary = pd.DataFrame(columns=['Outlier %'])
+    
+    for column in df.select_dtypes(include=[np.float64, np.int64]).columns:
+        Q1 = df[column].quantile(0.25)
+        Q3 = df[column].quantile(0.75)
+        IQR = Q3 - Q1
+        
+        lower_bound = Q1 - threshold * IQR
+        upper_bound = Q3 + threshold * IQR
+        
+        # Detecting outliers
+        outliers = (df[column] < lower_bound) | (df[column] > upper_bound)
+        outliers_df[column] = outliers
+        
+        # Calculate percentage of outliers
+        outlier_count = outliers.count()
+        outliers_summary.loc[column] = [outlier_count]
+    
+    return outliers_df, outliers_summary
+
+
+df=load_csv(data_url)
+print(df.columns)
+
+df, summary=null_values_handling(df)
+outliers_df, outliers_summary=detect_outliers_iqr(df)
+
+print(summary)
+print(outliers_summary)
+
+
+
