@@ -20,4 +20,6 @@ stages:
     deps:
     - models  # Assuming the Streamlit app depends on the trained models
     - src/app/app.py
+    outs:
+      - logs/streamlit.log
     
