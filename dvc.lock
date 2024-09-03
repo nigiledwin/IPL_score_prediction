@@ -54,3 +54,20 @@ stages:
       md5: 3aa603254e33028c8f73160cb43949eb.dir
       size: 31774911
       nfiles: 1
+  streamlit_app:
+    cmd: streamlit run src/app/app.py
+    deps:
+    - path: models
+      hash: md5
+      md5: 3aa603254e33028c8f73160cb43949eb.dir
+      size: 31774911
+      nfiles: 1
+    - path: src/app/app.py
+      hash: md5
+      md5: a49d02923f1f762d2d8dd8a877a2b65e
+      size: 2665
+    outs:
+    - path: logs/streamlit.log
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0

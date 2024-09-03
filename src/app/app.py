@@ -63,9 +63,7 @@ if st.sidebar.button('Predict'):
         shap.summary_plot(shap_values, transformed_input, feature_names=model.named_steps['trf1'].get_feature_names_out(), show=False)
         st.pyplot(fig)  # Display the summary plot
 
-        shap.waterfall_plot(shap.Explanation(values=shap_values[0].values, base_values=shap_values[0].base_values, data=transformed_input,feature_names=model.named_steps['trf1'].get_feature_names_out()), show=False)
-        st.pyplot(fig)  # Display the summary plot
-        
+             
         
     except Exception as e:
         st.error(f"Error generating SHAP plots: {e}")
