@@ -4,7 +4,7 @@ build_features:
 
 train_model:
   test_size: .3
-  n_estimators: 20
+  n_estimators: 21
   max_depth: 20
   learning_rate: .2
   model: 'xgboost'
