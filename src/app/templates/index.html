@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Score Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        .form-group select, .form-group input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 16px;
+        }
+        .submit-btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>IPL Score Prediction</h1>
+        <form method="POST" action="/predict">
+            <div class="form-group">
+                <label for="batting_team">Batting Team:</label>
+                <select id="batting_team" name="batting_team" required>
+                    {% for team in teams %}
+                        <option value="{{ team }}">{{ team }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="bowling_team">Bowling Team:</label>
+                <select id="bowling_team" name="bowling_team" required>
+                    {% for team in teams %}
+                        <option value="{{ team }}">{{ team }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="over">Over:</label>
+                <input type="number" id="over" name="over" min="1" max="20" required>
+            </div>
+            <div class="form-group">
+                <label for="ball">Ball:</label>
+                <input type="number" id="ball" name="ball" min="1" max="6" required>
+            </div>
+            <div class="form-group">
+                <label for="current_runs">Current Runs:</label>
+                <input type="number" id="current_runs" name="current_runs" min="0" required>
+            </div>
+            <div class="form-group">
+                <label for="rolling_back_30balls_runs">Runs in Last 30 Balls:</label>
+                <input type="number" id="rolling_back_30balls_runs" name="rolling_back_30balls_runs" min="0" required>
+            </div>
+            <div class="form-group">
+                <label for="rolling_back_30balls_wkts">Wickets in Last 30 Balls:</label>
+                <input type="number" id="rolling_back_30balls_wkts" name="rolling_back_30balls_wkts" min="0" required>
+            </div>
+            <button type="submit" class="submit-btn">Predict</button>
+        </form>
+
+        {% if prediction_text %}
+            <div class="result">{{ prediction_text }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
