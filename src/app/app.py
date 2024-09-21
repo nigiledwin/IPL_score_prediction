@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Load the dataset to extract unique team names
-df = pd.read_csv("data/df_final.csv")
+df = pd.read_csv("data/processed/df_final.csv")
 unique_teams = df['batting_team'].unique()
 
 # Load the pre-trained model pipeline

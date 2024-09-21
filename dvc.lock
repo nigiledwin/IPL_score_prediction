@@ -13,11 +13,10 @@ stages:
       md5: c1865641f1e80e82404e4839aa879aa4
       size: 3767
     outs:
-    - path: data/processed
+    - path: data/processed/df_final.csv
       hash: md5
-      md5: 3d0f3e8199f1dbe8adf5c60c0e2c5147.dir
+      md5: c088282d2164e2eab538af63a63fb1d9
       size: 7289727
-      nfiles: 1
   model training:
     cmd: python src/models/train_model.py
     deps:
@@ -49,11 +48,10 @@ stages:
       md5: 90a810fe5a3eb2518ada28548c23555c
       size: 4967
     outs:
-    - path: models
+    - path: models/pipe.pkl
       hash: md5
-      md5: 3aa603254e33028c8f73160cb43949eb.dir
-      size: 31774911
-      nfiles: 1
+      md5: b8b12658706c08fbfb0a22b19a062541
+      size: 33322402
   streamlit_app:
     cmd: streamlit run src/app/app.py
     deps:
@@ -71,3 +69,19 @@ stages:
       hash: md5
       md5: d41d8cd98f00b204e9800998ecf8427e
       size: 0
+  flask_app:
+    cmd: python src/app/app.py
+    deps:
+    - path: data/processed/df_final.csv
+      hash: md5
+      md5: c088282d2164e2eab538af63a63fb1d9
+      size: 7289727
+    - path: models
+      hash: md5
+      md5: aeba08331ee13a7d4b4da4e5b24dd56f.dir
+      size: 33322402
+      nfiles: 1
+    - path: src/app/app.py
+      hash: md5
+      md5: 8ff37183bb5ca0fc99cf7858443a147a
+      size: 1969
