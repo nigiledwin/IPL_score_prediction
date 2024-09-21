@@ -5,7 +5,7 @@ stages:
     - data/raw
     - src/data/data_preprocessing.py
     outs:
-    - data/processed
+    - data/processed/df_final.csv
 
   model_training:
     cmd: python src/models/train_model.py
@@ -13,7 +13,7 @@ stages:
     - data/processed
     - src/models/train_model.py
     outs:
-    - models
+    - models/pipe.pkl
 
   flask_app:
     cmd: python src/app/app.py
